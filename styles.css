@@ -1,0 +1,178 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background: #FAFAFA;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+button {
+  background: #0095F6;
+  height: 30px;
+  border-radius: 3px;
+  border: none;
+  color: #ffffff;
+  margin-top: 15px;
+  cursor: pointer;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+#container-app {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+#container-app img{
+  width: 140px;
+}
+
+#container-cadastro {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+  background: #ffffff;
+  border: 1px solid #dbdbdb;
+  padding: 20px 0;
+}
+
+#container-celular {
+  position: relative;
+}
+
+#container-facebook {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  margin: 10px 0;
+  font-size: 15px;
+}
+
+#container-form {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid #dbdbdb;
+  background: #ffff;
+  padding: 50px 40px 20px 40px;
+}
+
+#container-itens {
+  width: 350px;
+}
+
+#container-separacao {
+  width: 268px;
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex: row;
+}
+
+#container-separacao hr {
+  width: 200px;
+  height: 1px;
+  background-color: #8e8e8e;
+  opacity: 0.5;
+}
+
+#container-separacao p {
+  padding: 0 20px;
+  color: #8e8e8e;
+  font-size: 12px;
+  font-weight: bold;
+}
+
+.esqueceu-senha {
+  font-size: 12px;
+}
+
+.esqueceu-senha, .login-facebook {
+  text-align: center;
+  color: #385185;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.fa {
+  padding: 4px 11px 13px 6px;
+  width: 16px;
+  height: 16px;
+  line-height: 20px;
+  /* text-align: center; */
+  text-decoration: none;
+}
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+.img-cel-transi {
+  height: 520px;
+  position: absolute;
+  left: 150px;
+  top: 20px;
+  transition: opacity 2s ease-in-out;
+}
+
+.img-celular {
+  width: 450px;
+  height: 600px;
+}
+
+input {
+  height: 36px;
+  outline: none;
+  border: 1px solid #dbdbdb;
+  border-radius: 3px;
+  padding-left: 5px;
+  margin-top: 5px;
+  font-size: 12px;
+  color: #262626;
+  background-color: #fafafa;
+}
+
+.insta-logo {
+  margin-bottom: 20px;
+  width: 175px;
+  height: 51px;
+  display: block;
+  margin: 5px auto 20px auto;
+}
+
+.link-cadastro {
+  color: #0095f6;
+  font-weight: 600;
+  text-decoration: none;
+  margin-left: 5px;
+  cursor: pointer;
+  font-size: 13px;
+}
+
+.login-facebook {
+  font-weight: 500;
+  margin: 20px 0 15px 0;
+  font-size: 14px;
+}
+
+.paragrafo-app {
+  margin: 20px 0;
+  text-align: center;
+  font-size: smaller;
+}
+
+.paragrafo-conta {
+  font-size: 13px;
+}
