@@ -7,11 +7,6 @@
 body {
   font-family: Arial, Helvetica, sans-serif;
   background: #FAFAFA;
-  width: 100vw;
-  height: 100vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
 }
 
 button {
@@ -50,6 +45,14 @@ button {
   position: relative;
 }
 
+#container-end {
+  font-size: 12px;
+  color: #8e8e8e;
+  text-align: center;
+  margin-top: 20px;
+  padding-bottom: 50px;
+}
+
 #container-facebook {
   display: flex;
   justify-content: center;
@@ -69,6 +72,16 @@ button {
 
 #container-itens {
   width: 350px;
+}
+
+#container-links {
+  text-align: center;
+}
+
+#container-links a {
+  text-decoration: none;
+  color: #8e8e8e;
+  margin: 0 6px;
 }
 
 #container-separacao {
@@ -119,6 +132,10 @@ button {
   color: white;
 }
 
+footer {
+  font-size: 12px;
+}
+
 .img-cel-transi {
   height: 520px;
   position: absolute;
@@ -161,10 +178,26 @@ input {
   font-size: 13px;
 }
 
+#links-1 {
+  border: none;
+}
+
+#links-2 {
+  margin: 15px;
+}
+
 .login-facebook {
   font-weight: 500;
   margin: 20px 0 15px 0;
   font-size: 14px;
+}
+
+main {
+  width: 1510px;
+  height: 670px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .paragrafo-app {
@@ -175,4 +208,13 @@ input {
 
 .paragrafo-conta {
   font-size: 13px;
+}
+
+select {
+  position: relative;
+  background-color: #FAFAFA;
+  border: none;
+  color: #8e8e8e;
+  width: 130px;
+  margin-right: 10px;
 }

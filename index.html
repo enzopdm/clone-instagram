@@ -5,7 +5,7 @@
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device=width, initial-scale=1.0">
-  <link rel="stylesheet" href="/styles.css">
+  <link rel="stylesheet" href="/clone-instagram/styles.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
   <title>Instagram</title>
@@ -13,54 +13,139 @@
 
 <body>
 
-  <div id="container-celular">
-    <!-- Imagem celular -->
-    <img src="https://i.ibb.co/rH5G6Db/celular.png" alt="celular" class="img-celular">
-    <img src="https://i.ibb.co/vqJcTvW/insta1.png" alt="insta1" class="img-cel-transi">
-    <img src="https://i.ibb.co/QCkSWkS/insta2.png" alt="insta2" class="img-cel-transi" id="troca-imagem">
-  </div>
+  <main>
 
-  <div id="container-itens">
-    <div id="container-form">
-      <!-- Imagem logo insta -->
-      <img src="https://i.ibb.co/Hh0MBsg/insta-logo.png" alt="insta-logo" class="insta-logo">
+    <div id="container-celular">
+      <!-- Imagem celular -->
+      <img src="https://i.ibb.co/rH5G6Db/celular.png" alt="celular" class="img-celular">
+      <img src="https://i.ibb.co/vqJcTvW/insta1.png" alt="insta1" class="img-cel-transi">
+      <img src="https://i.ibb.co/QCkSWkS/insta2.png" alt="insta2" class="img-cel-transi" id="troca-imagem">
+    </div>
 
-      <!-- Inputs -->
-      <input type="text" placeholder="Telefone, nome de usuário ou email">
-      <input type="password" placeholder="Senha">
+    <div id="container-itens">
+      <div id="container-form">
+        <!-- Imagem logo insta -->
+        <img src="https://i.ibb.co/Hh0MBsg/insta-logo.png" alt="insta-logo" class="insta-logo">
 
-      <!-- Buttons -->
-      <button>Entrar</button>
+        <!-- Inputs -->
+        <input type="text" placeholder="Telefone, nome de usuário ou email">
+        <input type="password" placeholder="Senha">
 
-      <div id="container-separacao">
-        <hr>
-        <p>OU</p>
-        <hr>
+        <!-- Buttons -->
+        <button>Entrar</button>
+
+        <div id="container-separacao">
+          <hr>
+          <p>OU</p>
+          <hr>
+        </div>
+
+        <div id="container-facebook">
+          <a href="#" class="fa fa-facebook"></a>
+          <a href="" class="login-facebook">Entrar com o Facebook</a>
+        </div>
+
+        <a href="" class="esqueceu-senha">Esqueceu a senha?</a>
       </div>
 
-      <div id="container-facebook">
-        <a href="#" class="fa fa-facebook"></a>
-        <a href="" class="login-facebook">Entrar com o Facebook</a>
+      <!-- Não tenho uma conta -->
+      <div id="container-cadastro">
+        <p class="paragrafo-conta">Não tem uma conta?</p><a href="" class="link-cadastro">Cadastre-se</a>
       </div>
 
-      <a href="" class="esqueceu-senha">Esqueceu a senha?</a>
+      <p class="paragrafo-app">Obtenha o aplicativo.</p>
+
+      <div id="container-app">
+        <a href="https://imgbb.com/"><img src="https://i.ibb.co/pw0H1PF/ios.png" alt="ios" border="0"></a>
+        <a href="https://imgbb.com/"><img src="https://i.ibb.co/JQSxRLZ/google.png" alt="google" border="0"></a>
+      </div>
+
     </div>
 
-    <!-- Não tenho uma conta -->
-    <div id="container-cadastro">
-      <p class="paragrafo-conta">Não tem uma conta?</p><a href="" class="link-cadastro">Cadastre-se</a>
+  </main>
+
+  <footer>
+    <div id="container-links">
+      <div id="links-1">
+        <a href="#">Meta</a>
+        <a href="#">Sobre</a>
+        <a href="#">Blog</a>
+        <a href="#">Careirras</a>
+        <a href="#">Ajuda</a>
+        <a href="#">API</a>
+        <a href="#">Privacidade</a>
+        <a href="#">Termos</a>
+        <a href="#">Principais contas</a>
+        <a href="#">Hashtags</a>
+        <a href="#">Localizações</a>
+        <a href="#">Instagram Lite</a>
+        <a href="#">Carregamento de contatos e não usuários</a>
+      </div>
+      <div id="links-2">
+        <a href="#">Dança</a>
+        <a href="#">Comida e bebida</a>
+        <a href="#">Casa e jardim</a>
+        <a href="#">Música</a>
+        <a href="#">Artes visuais</a>
+      </div>
     </div>
 
-    <p class="paragrafo-app">Obtenha o aplicativo.</p>
-
-    <div id="container-app">
-      <a href="https://imgbb.com/"><img src="https://i.ibb.co/pw0H1PF/ios.png" alt="ios" border="0"></a>
-      <a href="https://imgbb.com/"><img src="https://i.ibb.co/JQSxRLZ/google.png" alt="google" border="0"></a>
+    <div id="container-end">
+      <select name="Português (Brasil)">
+        <option>Afrikaans</option>
+        <option>Čeština</option>
+        <option>Dansk</option>
+        <option>Deustch</option>
+        <option>Ελληνικά</option>
+        <option>English</option>
+        <option>English (UK)</option>
+        <option>Español (España)</option>
+        <option>Español</option>
+        <option>Suomi</option>
+        <option>Français</option>
+        <option>Bahasa Indonesia</option>
+        <option>Italiano</option>
+        <option>日本</option>
+        <option>한국인</option>
+        <option>Bahasa Melayu</option>
+        <option>Norsk</option>
+        <option>Nederlands</option>
+        <option>Polski</option>
+        <option selected>Português (Brasil)</option>
+        <option>Português (Portugal)</option>
+        <option>Русский</option>
+        <option>Svenska</option>
+        <option>ไทย</option>
+        <option>Filipino</option>
+        <option>Türkçe</option>
+        <option>简体中文</option>
+        <option>繁體中文</option-sp>
+        <option>বাংলা</option>
+        <option>ગુજરાતી</option>
+        <option>हिन्दी</option>
+        <option>Hrvatski</option>
+        <option>Magyar</option>
+        <option>ಕ್ಯಾನರಿ</option>
+        <option>മലയാളം</option>
+        <option>मराठी</option>
+        <option>नेपाली</option>
+        <option>ਪੰਜਾਬੀ</option>
+        <option>සිංහල</option>
+        <option>Slovenský</option>
+        <option>தமிழ்</option>
+        <option>తెలుగు</option>
+        <option>Tiếng Việt</option>
+        <option>български</option>
+        <option>Français (Canada)</option>
+        <option>Română</option>
+        <option>Српски</option>
+        <option>українська</option>
+      </select>
+      © 2022 Instagram from Meta
     </div>
+  </footer>
 
-  </div>
-
-  <script type="text/javascript" src="/script.js"></script>
+  <script type="text/javascript" src="/clone-instagram/script.js"></script>
 
 </body>
 
