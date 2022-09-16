@@ -193,7 +193,7 @@ input {
 }
 
 main {
-  width: 1510px;
+  width: 98vw;
   height: 670px;
   display: flex;
   justify-content: center;
@@ -217,4 +217,5 @@ select {
   color: #8e8e8e;
   width: 130px;
   margin-right: 10px;
+  font-size: 12px;
 }
