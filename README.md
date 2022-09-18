@@ -1,2 +1,2 @@
 # clone-instagram
- Projeto de clonagem do site inicial do Instagram, utilizando HTML - CSS - JavaScript
+ Neste projeto recriei a página inicial de login do Instagram, utilizando das tecnologias HTML, CSS e JavaScript.
